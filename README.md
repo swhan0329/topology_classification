@@ -37,7 +37,7 @@ learning rate: 0.001
 
 ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/10XJcF7JV9sg6Qo-reLcfKLWNZ2w8_nvv/view?usp=sharing
 
-SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/
+SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1NzEVaLiwZQstfYVro9baepfHjYKxxuUT/view?usp=sharing
 
 * ResNeXt-101-32x8d
 learning rate: 0.001
@@ -88,7 +88,7 @@ Specification: Nivida TITIN RTX
 |                       | Adam Optimizer |     SGD     |
 | :-------------------: | :------------: | :----------:|
 | **ResNet-18**         | 0.773218       | 0.753780    |
-| **ResNet-152**        | 0.792657       | Right       |
+| **ResNet-152**        | 0.792657       | 0.775378    |
 | **ResNeXt-101-32x8d** | Center         | Right       |
 
 ### Train vs. Validation accuracy graph
