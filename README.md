@@ -15,9 +15,9 @@ Data set link: https://drive.google.com/file/d/1gqCReEtbO1N2glrRoKS4yF1wi-bjBQY0
 The number of data set: 1854
 
 ### Example of data set
-![Node 6] [104]
+![Node6] (/input/14.png)
 
-![Node 6] [14]
+![Node4] [14]
 
 [14]: https://github.com/swhan0329/topology_classification/blob/master/input/14.png
 [104]: https://github.com/swhan0329/topology_classification/blob/master/input/104.png
