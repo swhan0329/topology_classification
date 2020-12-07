@@ -1,5 +1,5 @@
 # Topology Classification
-This is a topology classification training and inference code using the pretrained ResNet.
+This is a topology classification training and inference code using the pretrained ResNet18.
 
 When you input the image of topology, this network predicts how many nodes there are in this image.
 
@@ -12,7 +12,7 @@ Image(.png) + label(.txt) -> preprocessing -> image+label(.json)
 
 Data set link: https://drive.google.com/file/d/1gqCReEtbO1N2glrRoKS4yF1wi-bjBQY0/view?usp=sharing
 
-The number of data set: 1854
+The number of total data set: 1854
 
 ### Example of data set
 #### Node 5 image
@@ -21,8 +21,18 @@ The number of data set: 1854
 #### Node 6 image
 <img src="./input/104.png" width="200px" height="200px" title="Node 6"></img><br/>
 
-## Network
+## Network(ResNet18,158)
+link: https://pytorch.org/hub/pytorch_vision_resnet/
+
 ### Pretrained Weight File
+* ResNet-18
+learning rate: 0.001
+
+ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1ObSv2HAQmSg0a64RIsANfUyCr-UcNhCS/view?usp=sharing
+
+SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1ObSv2HAQmSg0a64RIsANfUyCr-UcNhCS/view?usp=sharing
+
+* ResNet-158
 learning rate: 0.001
 
 ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1ObSv2HAQmSg0a64RIsANfUyCr-UcNhCS/view?usp=sharing
