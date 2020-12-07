@@ -1,5 +1,5 @@
 # Topology Classification
-This is a topology classification training and inference code using pretrained the ResNet.
+This is a topology classification training and inference code using the pretrained ResNet.
 
 When you input the image of topology, this network predicts how many nodes there are in this image.
 
@@ -51,10 +51,11 @@ python inference.py -i [input image] -w [weight file]
 ### Inference Time
 Specification: Nivida TITIN RTX
 
-* On GPU: around 0.03 sec per one image
+* On one GPU: around 0.03 sec per one image
 
 ### Best Accuracy
 __Train accuracy:__ 
+
 __Validation accuracy:__ 
 
 ### Train vs. Validation accuracy graph
