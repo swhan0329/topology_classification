@@ -15,7 +15,7 @@ Data set link: https://drive.google.com/file/d/1gqCReEtbO1N2glrRoKS4yF1wi-bjBQY0
 The number of data set: 1854
 
 ### Example of data set
-! [Node6] (./input/14.png)
+![ex_screenshot](./input/14.png)
 
 ! [Node4] [14]
 
