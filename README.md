@@ -21,8 +21,14 @@ The number of total data set: 1854
 #### Node 6 image
 <img src="./input/104.png" width="200px" height="200px" title="Node 6"></img><br/>
 
-## Network(ResNet18,158)
+## Network(ResNet18,158,ResNeXt-101-32x8d)
+[ResNet]
+
 link: https://pytorch.org/hub/pytorch_vision_resnet/
+
+[ResNeXt]
+
+https://pytorch.org/hub/pytorch_vision_resnext/
 
 ### Pretrained Weight File
 * ResNet-18
