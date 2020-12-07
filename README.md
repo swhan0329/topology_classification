@@ -95,9 +95,14 @@ python inference.py -i [input image] -w [weight file]
 
 ## Result
 ### Inference Time
-Specification: Nivida TITIN RTX
 
-* On one GPU: around 0.03 sec per one image
+Specification: One Nivida TITIN RTX
+
+|         Second        | Adam Optimizer |     SGD     |
+| :-------------------: | :------------: | :----------:|
+| **ResNet-18**         | 0.02734        | 0.02777     |
+| **ResNet-152**        | 0.46982        | 0.04122     |
+| **ResNeXt-101-32x8d** | 0.04609        | 0.05990     |
 
 ### Best Accuracy
 |                       | Adam Optimizer |     SGD     |
@@ -110,29 +115,29 @@ Specification: Nivida TITIN RTX
 #### ResNet18
 * Adam Optimization
 
-<img src="./result/500ADAM.png" width="400px" height="300px" title="ADAM"></img><br/>
+<img src="./result/500ADAM.png" width="400px" height="300px" title="RESNET18ADAM"></img><br/>
 
 * SGD Optimization
 
-<img src="./result/ResNet18SGD.png" width="400px" height="300px" title="ADAM"></img><br/>
+<img src="./result/ResNet18SGD.png" width="400px" height="300px" title="RESNET18SGD"></img><br/>
 
 #### ResNet152
 * Adam Optimization
 
-<img src="./result/ResNet152Adam.png" width="400px" height="300px" title="ADAM"></img><br/>
+<img src="./result/ResNet152Adam.png" width="400px" height="300px" title="RESNET152ADAM"></img><br/>
 
 * SGD Optimization
 
-<img src="./result/ResNet152SGD.png" width="400px" height="300px" title="ADAM"></img><br/>
+<img src="./result/ResNet152SGD.png" width="400px" height="300px" title="RESNET152SGD"></img><br/>
 
 #### ResNeXt-101-32x8d
 * Adam Optimization
 
-<img src="./result/ResNeXt_SGD.png" width="400px" height="300px" title="ADAM"></img><br/>
+<img src="./result/ResNext_SGD.png" width="400px" height="300px" title="RESNEXTADAM"></img><br/>
 
 * SGD Optimization
 
-<img src="./result/ResNeXt_Adam.png" width="400px" height="300px" title="ADAM"></img><br/>
+<img src="./result/ResNext_ADAM.png" width="400px" height="300px" title="RESNEXTSGD"></img><br/>
 
 ## Q & A
 If you have a question, make issue or send e-mail to me.
