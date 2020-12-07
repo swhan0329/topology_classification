@@ -85,31 +85,11 @@ Specification: Nivida TITIN RTX
 * On one GPU: around 0.03 sec per one image
 
 ### Best Accuracy
-#### ResNet18
-* Adam Optimization
-
-__Validation accuracy:__ 0.773218
-
-* SGD Optimization
-
-__Validation accuracy:__ 0.753780
-
-#### ResNet152
-* Adam Optimization
-
-__Validation accuracy:__ 0.792657
-* SGD Optimization
-
-__Validation accuracy:__ 0.773218
-
-#### ResNeXt-101-32x8d
-* Adam Optimization
-
-__Validation accuracy:__ 0.773218
-
-* SGD Optimization
-
-__Validation accuracy:__ 0.773218
+|                       | Adam Optimizer |     SGD     |
+| :-------------------: | :------------: | :----------:|
+| **ResNet-18**         | 0.773218       | 0.753780    |
+| **ResNet-152**        | 0.792657       | Right       |
+| **ResNeXt-101-32x8d** | Center         | Right       |
 
 ### Train vs. Validation accuracy graph
 #### ResNet18
