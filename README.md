@@ -77,7 +77,7 @@ __Validation accuracy:__ 0.773218
 ### Train vs. Validation accuracy graph
 * Adam Optimization
 
-<img src="./result/500ADAM.png" width="300px" height="300px" title="ADAM"></img><br/>
+<img src="./result/500ADAM.png" width="400px" height="300px" title="ADAM"></img><br/>
 
 ## Q & A
 If you have a question, make issue or send e-mail to me.
