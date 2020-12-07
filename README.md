@@ -1,5 +1,5 @@
 # Topology Classification
-This is a topology classification training and inference code using the pretrained ResNet18.
+This is a topology classification training and inference code using the pretrained ResNet18, ResNet152 and ResNeXt-101-32x8d.
 
 When you input the image of topology, this network predicts how many nodes there are in this image.
 
@@ -30,14 +30,21 @@ learning rate: 0.001
 
 ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1ObSv2HAQmSg0a64RIsANfUyCr-UcNhCS/view?usp=sharing
 
-SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1ObSv2HAQmSg0a64RIsANfUyCr-UcNhCS/view?usp=sharing
+SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/15mNr7ogmzTCFd43VuTbC31P38OPjaKlx/view?usp=sharing
 
-* ResNet-158
+* ResNet-152
 learning rate: 0.001
 
-ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1ObSv2HAQmSg0a64RIsANfUyCr-UcNhCS/view?usp=sharing
+ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/10XJcF7JV9sg6Qo-reLcfKLWNZ2w8_nvv/view?usp=sharing
 
-SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1ObSv2HAQmSg0a64RIsANfUyCr-UcNhCS/view?usp=sharing
+SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/
+
+* ResNeXt-101-32x8d
+learning rate: 0.001
+
+ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/
+
+SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/
 
 ## How to run this code
 0. Download this git storage
@@ -78,6 +85,24 @@ Specification: Nivida TITIN RTX
 * On one GPU: around 0.03 sec per one image
 
 ### Best Accuracy
+#### ResNet18
+* Adam Optimization
+
+__Validation accuracy:__ 0.773218
+
+* SGD Optimization
+
+__Validation accuracy:__ 0.753780
+
+#### ResNet152
+* Adam Optimization
+
+__Validation accuracy:__ 0.792657
+* SGD Optimization
+
+__Validation accuracy:__ 0.773218
+
+#### ResNeXt-101-32x8d
 * Adam Optimization
 
 __Validation accuracy:__ 0.773218
@@ -87,13 +112,32 @@ __Validation accuracy:__ 0.773218
 __Validation accuracy:__ 0.773218
 
 ### Train vs. Validation accuracy graph
+#### ResNet18
 * Adam Optimization
 
 <img src="./result/500ADAM.png" width="400px" height="300px" title="ADAM"></img><br/>
 
 * SGD Optimization
 
-<img src="./result/500ADAM.png" width="400px" height="300px" title="ADAM"></img><br/>
+<img src="./result/ResNet18SGD.png" width="400px" height="300px" title="ADAM"></img><br/>
+
+#### ResNet152
+* Adam Optimization
+
+<img src="./result/ResNet152Adam.png" width="400px" height="300px" title="ADAM"></img><br/>
+
+* SGD Optimization
+
+<img src="./result/ResNet152SGD.png" width="400px" height="300px" title="ADAM"></img><br/>
+
+#### ResNeXt-101-32x8d
+* Adam Optimization
+
+<img src="./result/ResNeXt_SGD.png" width="400px" height="300px" title="ADAM"></img><br/>
+
+* SGD Optimization
+
+<img src="./result/ResNeXt_Adam.png" width="400px" height="300px" title="ADAM"></img><br/>
 
 ## Q & A
 If you have a question, make issue or send e-mail to me.
