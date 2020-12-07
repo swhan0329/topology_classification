@@ -14,6 +14,10 @@ Data set link: https://drive.google.com/file/d/1gqCReEtbO1N2glrRoKS4yF1wi-bjBQY0
 
 The number of data set: 1854
 
+### Example of data set
+![Node: 6] https://github.com/swhan0329/topology_classification/blob/master/input/104.png
+![Node: 6] https://github.com/swhan0329/topology_classification/blob/master/input/14.png
+
 ## Network
 ### Pretrained Weight File
 Link: 
