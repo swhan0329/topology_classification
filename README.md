@@ -26,9 +26,9 @@ The number of data set: 1854
 Link: 
 
 ## How to run this code
-0. Download this git
+0. Download this git storage
 ```bash
-git clone 
+git clone https://github.com/swhan0329/topology_classification.git
 ```
 
 1. Set the envirnment
