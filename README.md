@@ -42,9 +42,9 @@ SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1NzEVaLiwZQstfYVr
 * ResNeXt-101-32x8d
 learning rate: 0.001
 
-ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/
+ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1wfWYjHXwn7exmmoVVOl5_F56sd7AFozM/view?usp=sharing
 
-SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/
+SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/15zWFLU8iepmypS_oQ0yCYry-Agla6SLM/view?usp=sharing
 
 ## How to run this code
 0. Download this git storage
@@ -89,7 +89,7 @@ Specification: Nivida TITIN RTX
 | :-------------------: | :------------: | :----------:|
 | **ResNet-18**         | 0.773218       | 0.753780    |
 | **ResNet-152**        | 0.792657       | 0.775378    |
-| **ResNeXt-101-32x8d** | Center         | Right       |
+| **ResNeXt-101-32x8d** | 0.775378       | 0.773218    |
 
 ### Train vs. Validation accuracy graph
 #### ResNet18
