@@ -133,11 +133,11 @@ Specification: One Nivida TITIN RTX
 #### ResNeXt-101-32x8d
 * Adam Optimization
 
-<img src="./result/ResNext_SGD.png" width="400px" height="300px" title="RESNEXTADAM"></img><br/>
+<img src="./result/ResNext-SGD.png" width="400px" height="300px" title="RESNEXTADAM"></img><br/>
 
 * SGD Optimization
 
-<img src="./result/ResNext_ADAM.png" width="400px" height="300px" title="RESNEXTSGD"></img><br/>
+<img src="./result/ResNext-ADAM.png" width="400px" height="300px" title="RESNEXTSGD"></img><br/>
 
 ## Q & A
 If you have a question, make issue or send e-mail to me.
