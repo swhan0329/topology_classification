@@ -16,7 +16,7 @@ The number of data set: 1854
 0. Preprocess
 
 ```bash
-python create_data.py -i [input image directory] -l [label information in text file] -o [output directory]
+python create_data.py -i [input image directory(<image input dir>/*.png)] -l [label information in text file(<label input dir>/*.txt)] -o [output directory]
 ```
 
 1. Train and validation
