@@ -23,7 +23,11 @@ The number of data set: 1854
 
 ## Network
 ### Pretrained Weight File
-Link: 
+learning rate: 0.001
+
+ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1ObSv2HAQmSg0a64RIsANfUyCr-UcNhCS/view?usp=sharing
+
+SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1ObSv2HAQmSg0a64RIsANfUyCr-UcNhCS/view?usp=sharing
 
 ## How to run this code
 0. Download this git storage
@@ -64,12 +68,16 @@ Specification: Nivida TITIN RTX
 * On one GPU: around 0.03 sec per one image
 
 ### Best Accuracy
-__Train accuracy:__ 
+* Adam Optimization
 
-__Validation accuracy:__ 
+__Train accuracy:__ 0.8290
+
+__Validation accuracy:__ 0.773218
 
 ### Train vs. Validation accuracy graph
+* Adam Optimization
 
+<img src="./result/500ADAM.png" width="300px" height="300px" title="ADAM"></img><br/>
 
 ## Q & A
 If you have a question, make issue or send e-mail to me.
