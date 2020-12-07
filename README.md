@@ -28,25 +28,34 @@ link: https://pytorch.org/hub/pytorch_vision_resnet/
 
 [ResNeXt]
 
-https://pytorch.org/hub/pytorch_vision_resnext/
+link: https://pytorch.org/hub/pytorch_vision_resnext/
 
 ### Pretrained Weight File
 * ResNet-18
+
 learning rate: 0.001
+
+BatchSize = 128
 
 ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1ObSv2HAQmSg0a64RIsANfUyCr-UcNhCS/view?usp=sharing
 
 SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/15mNr7ogmzTCFd43VuTbC31P38OPjaKlx/view?usp=sharing
 
 * ResNet-152
+
 learning rate: 0.001
+
+BatchSize = 128
 
 ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/10XJcF7JV9sg6Qo-reLcfKLWNZ2w8_nvv/view?usp=sharing
 
 SGD OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1NzEVaLiwZQstfYVro9baepfHjYKxxuUT/view?usp=sharing
 
 * ResNeXt-101-32x8d
+
 learning rate: 0.001
+
+BatchSize = 128
 
 ADAM OPTIMIZATION + 500 epoch:  https://drive.google.com/file/d/1wfWYjHXwn7exmmoVVOl5_F56sd7AFozM/view?usp=sharing
 
