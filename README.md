@@ -16,6 +16,7 @@ The number of data set: 1854
 
 ### Example of data set
 ![Node6] (./input/14.png)
+
 ![Node4] [14]
 
 [14]: https://github.com/swhan0329/topology_classification/blob/master/input/14.png
