@@ -15,9 +15,9 @@ Data set link: https://drive.google.com/file/d/1gqCReEtbO1N2glrRoKS4yF1wi-bjBQY0
 The number of data set: 1854
 
 ### Example of data set
-<img src="./input/14.png" width="100px" height="100px" alt="RubberDuck"></img><br/>
+<img src="./input/14.png" width="200px" height="200px" alt="Node 5"></img><br/>
 
-<img src="./input/104.png" width="100px" height="100px" alt="RubberDuck1"></img><br/>
+<img src="./input/104.png" width="200px" height="200px" alt="Node 6"></img><br/>
 
 ## Network
 ### Pretrained Weight File
