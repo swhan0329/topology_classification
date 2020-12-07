@@ -70,12 +70,18 @@ Specification: Nivida TITIN RTX
 ### Best Accuracy
 * Adam Optimization
 
-__Train accuracy:__ 0.8290
+__Validation accuracy:__ 0.773218
+
+* SGD Optimization
 
 __Validation accuracy:__ 0.773218
 
 ### Train vs. Validation accuracy graph
 * Adam Optimization
+
+<img src="./result/500ADAM.png" width="400px" height="300px" title="ADAM"></img><br/>
+
+* SGD Optimization
 
 <img src="./result/500ADAM.png" width="400px" height="300px" title="ADAM"></img><br/>
 
