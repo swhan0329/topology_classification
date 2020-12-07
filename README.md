@@ -6,11 +6,17 @@ When you input the image of topology, this network predicts how many nodes there
 The number of class is six. This means that an image with 3, 4, 5, 6, 7, and 8 nodes is used.
 
 ## Our data set configuration
+Data Set is made by Yoon Kyung Jang (jokjjs0216@khu.ac.kr)
+
 Image(.png) + label(.txt) -> preprocessing -> image+label(.json)
 
-data set link: https://drive.google.com/file/d/1gqCReEtbO1N2glrRoKS4yF1wi-bjBQY0/view?usp=sharing
+Data set link: https://drive.google.com/file/d/1gqCReEtbO1N2glrRoKS4yF1wi-bjBQY0/view?usp=sharing
 
 The number of data set: 1854
+
+## Network
+### Pretrained Weight File
+Link: 
 
 ## How to run this code
 0. Preprocess
