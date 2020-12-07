@@ -72,6 +72,6 @@ __Validation accuracy:__
 
 
 ## Q & A
-If you have a question, please send e-mail to me.
+If you have a question, make issue or send e-mail to me.
 
-swhan0329@gmail.com
+E-mail: swhan0329@gmail.com
