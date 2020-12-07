@@ -26,7 +26,17 @@ The number of data set: 1854
 Link: 
 
 ## How to run this code
-0. Preprocess
+0. Download this git
+```bash
+git clone 
+```
+
+1. Set the envirnment
+```bash
+pip install -r requirements.txt
+```
+
+2. Preprocess
 
 ```bash
 python create_data.py \
@@ -35,13 +45,13 @@ python create_data.py \
 -o [output directory]
 ```
 
-1. Train and validation
+3. Train and validation
 
 ```bash
 python main.py
 ```
 
-2. Test(Inference)
+4. Test(Inference)
 
 ```bash
 python inference.py -i [input image] -w [weight file]
