@@ -23,7 +23,7 @@ feature_extract = True
 
 def main(args):
     # Initialize the model for this run
-    model_ft, input_size = initialize_model("resnet", 6, feature_extract, use_pretrained=False)
+    model_ft, input_size = initialize_model(args['model'], 6, feature_extract, use_pretrained=False)
 
     if feature_extract:
         params_to_update = []
@@ -66,6 +66,7 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--input",help="path to input image", default = "input/sample.png")
     ap.add_argument("-w", "--weight",help="path to weight", default = "./weights/best.pth")
+    ap.add_argument("-m", "--model",help="name of model", choices=['resnet18', 'resnet152', 'ResNeXt-101-32x8d'], default = "resnet18")
     args = vars(ap.parse_args())
 
     main(args)
