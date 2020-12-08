@@ -90,7 +90,9 @@ python main.py
 4. Test(Inference)
 
 ```bash
-python inference.py -i [input image] -w [weight file]
+python inference.py -i [input image] \
+-w [weight file] \
+-m [used model name] #choices=['resnet18', 'resnet152','ResNeXt-101-32x8d']
 ```
 
 ## Result
