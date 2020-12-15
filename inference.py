@@ -25,17 +25,6 @@ def main(args):
     # Initialize the model for this run
     model_ft, input_size = initialize_model(args['model'], 6, feature_extract, use_pretrained=False)
 
-    if feature_extract:
-        params_to_update = []
-        for name,param in model_ft.named_parameters():
-            if param.requires_grad == True:
-                params_to_update.append(param)
-                print("\t",name)
-    else:
-        for name,param in model_ft.named_parameters():
-            if param.requires_grad == True:
-                print("\t",name)
-
     # Detect if we have a GPU available
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -64,8 +53,8 @@ def main(args):
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
-    ap.add_argument("-i", "--input",help="path to input image", default = "input/sample.png")
-    ap.add_argument("-w", "--weight",help="path to weight", default = "./weights/best.pth")
+    ap.add_argument("-i", "--input",help="path to input image", default = "input/4.png")
+    ap.add_argument("-w", "--weight",help="path to weight", default = "./weights/ResNet18_Adam_best.pth")
     ap.add_argument("-m", "--model",help="name of model", choices=['resnet18', 'resnet152', 'ResNeXt-101-32x8d'], default = "resnet18")
     args = vars(ap.parse_args())
 
