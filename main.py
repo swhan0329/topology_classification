@@ -50,7 +50,7 @@ print("val dataset length:", len(datasets['val']))
 dataloaders_dict = {x: DataLoader(datasets[x], batch_size=batch_size, shuffle=True, num_workers=10) for x in ['train', 'val']}
 
 # Detect if we have a GPU available
-device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 print("device:",device)
 
 # Send the model to GPU
